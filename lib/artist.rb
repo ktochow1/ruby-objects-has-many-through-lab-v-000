@@ -21,7 +21,7 @@ attr_accessor :name, :songs
   
   def genres
     @songs.collect do |song|
-      song.genre 
+      song.genre #how does it reference genre? where is it reading it from?
     end
   end
     
